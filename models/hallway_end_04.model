@@ -1,0 +1,19 @@
+# Made using Asset Forge (1.2.1)
+
+:models
+Castles/wall_cornerDiagonal[(0, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Castles/wall_cornerDiagonal[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Castles/wall_borderCornerDiagonal[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_borderCornerDiagonal[(0, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/floor_corner[(0, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+Castles/floor_corner[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+
+:materials
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);greybricks]
+stone[RGBA(0.667, 0.663, 0.737, 1.000);metalGalvan]
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);greybricks]
+wood[RGBA(0.530, 0.396, 0.318, 1.000);]
+
+:textures
+
+:extra

@@ -1,0 +1,21 @@
+# Made using Asset Forge (1.2.1)
+
+:models
+#Dungeon Tiles/floor_04[(0, 0, -1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_04[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/wall_03[(0, 0, 0);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/wall_02[(-1, 0, 1);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(-1, 0, -1);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(0, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(0, 0, -1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_03[(-1, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/floor_06[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+
+:materials
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);]
+stone[RGBA(0.667, 0.663, 0.737, 1.000);]
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);]
+
+:textures
+
+:extra

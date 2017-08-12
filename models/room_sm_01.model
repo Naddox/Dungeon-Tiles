@@ -1,0 +1,35 @@
+# Made using Asset Forge (1.2.1)
+
+:models
+#Dungeon Tiles/floor_01[(-2, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_01[(1, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_01[(-2, 0, -1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_01[(1, 0, -1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_04[(0, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/floor_05[(0, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/corner_01[(-2, 0, -1);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/corner_01[(-2, 0, 2);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/corner_01[(2, 0, 2);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/corner_01[(2, 0, -1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/door_01[(0, 0, 2);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone+wood+lightStone+darkStone]
+#Dungeon Tiles/wall_02[(-1, 0, 2);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(1, 0, 2);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(-1, 0, -1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_02[(1, 0, -1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/wall_01[(-2, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/wall_01[(2, 0, 0);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/wall_03[(0, 0, -1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/pillar_03[(-1, 0, 0.5);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+#Dungeon Tiles/pillar_03[(1, 0, 0.5);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+#Dungeon Tiles/wall_01[(-2, 0, 1);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/wall_01[(2, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+
+:materials
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);]
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);]
+stone[RGBA(0.667, 0.663, 0.737, 1.000);]
+wood[RGBA(0.560, 0.456, 0.394, 1.000);]
+
+:textures
+
+:extra

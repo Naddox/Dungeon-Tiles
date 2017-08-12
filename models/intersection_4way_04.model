@@ -1,0 +1,18 @@
+# Made using Asset Forge (1.2.1)
+
+:models
+#Dungeon Tiles/floor_01[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+#Dungeon Tiles/pillar_02[(0.5, 0, 0.5);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_borderBricks[(2, 0, -1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_borderBricks[(-1, 0, -1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_borderBricks[(-1, 0, 2);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_borderBricks[(2, 0, 2);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+
+:materials
+stone[RGBA(0.667, 0.663, 0.737, 1.000);metalGalvan]
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);greybricks]
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);greybricks]
+
+:textures
+
+:extra

@@ -1,0 +1,29 @@
+# Made using Asset Forge (1.2.1)
+
+:models
+Castles/floor_square[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+Castles/floor_square[(0, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+Castles/floor_square[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+Castles/floor_square[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
+Castles/wall_straight[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Castles/wall_straight[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Castles/wall_straight[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Castles/wall_border[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_border[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_border[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/detail_chimneyShaft[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/detail_chimneyShaft[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/detail_chimneyShaft[(0, 0, 0);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/door_round[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+wood]
+Castles/wall_borderDoorway[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone]
+Castles/wall_doorwayRound[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+
+:materials
+stone[RGBA(0.667, 0.663, 0.737, 1.000);metalGalvan]
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);greybricks]
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);greybricks]
+wood[RGBA(0.530, 0.396, 0.318, 1.000);]
+
+:textures
+
+:extra
