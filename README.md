@@ -6,4 +6,4 @@ These tiles are intended for random generation but can be use to make premade du
 
 The models have been tested in Unity, UE4, & GoDot engines. Feel free to test in other engines and let me know if they are working. Also feel free to create branches and edit/add tiles as you see fit.
 
-Current count is 63 tiles
+Current count is 69 tiles
