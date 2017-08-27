@@ -2,27 +2,24 @@
 
 :models
 #Dungeon Tiles/floor_01[(0, 0, 0);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone]
-#Dungeon Tiles/wall_01[(1, 0, 0);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
-#Dungeon Tiles/corner_01[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
-#Dungeon Tiles/corner_01[(1, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/corner_01[(1, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
+#Dungeon Tiles/corner_01[(0, 0, 1);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);darkStone+lightStone]
 #Dungeon Tiles/wall_01[(0, 0, 0);(0.0, 270.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/wall_01[(1, 0, 0);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+darkStone]
+#Dungeon Tiles/stairs_07[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone+lightStone]
+#Dungeon Tiles/raised_floor_01[(0, 0, 1);(0.0, 0.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+#Dungeon Tiles/stairs_07[(0, 0.5, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone+lightStone]
+Castles/wall_corner[(1, 1, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
 Castles/wall_straight[(0, 1, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
-Castles/wall_straight[(1, 1, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
-Castles/wall_straight[(1, 1, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
 Castles/wall_ruined[(1, 1, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
-#Dungeon Tiles/raised_floor_02[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone+stone]
-#Dungeon Tiles/stairs_07[(1, 0, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone__+lightStone__]
-#Dungeon Tiles/stairs_07[(0, 0.5, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);stone__+lightStone__]
-#Dungeon Tiles/raised_floor_01[(0, 0, 1);(0.0, 90.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
+Primitives/block_default[(1, 0, 1);(0.0, 180.0, 0.0);(1.0, 0.5, 1.0);(0.0, 0.0, 0.0);stone]
 Castles/wall_ruined[(-1, 1, 0);(0.0, 180.0, 0.0);(1.0, 1.0, 1.0);(0.0, 0.0, 0.0);lightStone]
 
 :materials
-darkStone[RGBA(0.431, 0.431, 0.478, 1.000);]
-stone[RGBA(0.667, 0.663, 0.737, 1.000);]
-lightStone[RGBA(0.812, 0.808, 0.855, 1.000);]
-stone__[RGBA(0.667, 0.663, 0.737, 1.000);]
-lightStone__[RGBA(0.812, 0.808, 0.855, 1.000);]
-wood[RGBA(0.560, 0.456, 0.394, 1.000);]
+stone[RGBA(0.667, 0.663, 0.737, 1.000);metal]
+darkStone[RGBA(0.431, 0.431, 0.478, 1.000);greybricks]
+lightStone[RGBA(0.812, 0.808, 0.855, 1.000);greybricks]
+_defaultMat[RGBA(1.000, 1.000, 1.000, 1.000);]
 
 :textures
 
